@@ -6,7 +6,7 @@ html {
 }
 body {
   font-family: "Times New Roman", Times, serif;
-  padding-bottom: 700px;
+  padding-bottom: 550px;
 }
 .footer {
   position: absolute;
@@ -211,7 +211,7 @@ label {
   display: block;
 }
 
-#input-email {
+#input-dropoff {
   padding-top: 26px;
 }
 .main-left {
