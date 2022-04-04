@@ -5,7 +5,7 @@ html {
   min-height: 100%;
 }
 body {
-  font-family: "Times New Roman", Times, serif;
+  
   padding-bottom: 550px;
 }
 .footer {
@@ -66,34 +66,9 @@ body {
   margin-bottom: 0;
 }
 
-.footer .item.social {
-  text-align: center;
-}
 
-@media (max-width: 991px) {
-  .footer .item.social {
-    text-align: center;
-    margin-top: 20px;
-  }
-}
 
-.footer .item.social > a {
-  font-size: 20px;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
-  margin: 0 8px;
-  color: #fff;
-  opacity: 0.75;
-}
 
-.footer .item.social > a:hover {
-  opacity: 0.9;
-}
 
 .footer .copyright {
   text-align: center;
