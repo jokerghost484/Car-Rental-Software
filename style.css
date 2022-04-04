@@ -1,11 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
+*{
+  font-family: "Merriweather, serif";
+}
 html {
   position: relative;
   min-height: 100%;
 }
 body {
-  
+ 
   padding-bottom: 550px;
 }
 .footer {

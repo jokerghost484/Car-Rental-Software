@@ -20,80 +20,104 @@
 
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <div class="container-fluid">
-          
-          <a class="navbar-brand" href="home.html"> <i class="fa-solid fa-ghost fa-xl pr-4" style="color:white"></i>Ghost Rental</a>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="fleet.html">Fleet</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="services.html">Services</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ms-auto flex-nowrap">
-              <li class="nav-item ">
-                <a class="navbar-brand" href="myaccount.html">Myaccount
-                  <i class="fa-solid fa-user"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
+            <a class="navbar-brand" href="home.html"> <i class="fa-solid fa-ghost fa-xl pr-4"
+                    style="color:white"></i>Ghost Rental</a>
 
-
-
-
-    <footer>
-        <div class="footer">
-          <footer>
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                  <h3>About Ghost Rental</h3>
-                  <ul>
-                    <li><a href="#">Fleet</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">MyAccount</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-6 col-md-3 item">
-                  <h3>About </h3>
-                  <ul>
-                    <li><a href="#">Privacy policies</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Legal notice</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-6 item text">
-                  <h3>Ghost Rental</h3>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus, perspiciatis quaerat
-                    in
-                    eius, temporibus porro praesentium ut autem exercitationem natus mollitia pariatur placeat error
-                    numquam
-                    molestias eos vitae architecto.</p>
-                </div>
-                
-              <p class="copyright">Ghost Rental © 2022</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="fleet.html">Fleet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto flex-nowrap">
+                    <li class="nav-item ">
+                        <a class="navbar-brand" href="myaccount.html">Myaccount
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-          </footer>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-      </footer>
+    </nav>
 
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+            </div>
+            <div class="col-6 mt-5">
+                <h1>Car Hire</h1>
+                <form class="cf" action="carpage.html">
+                    <div class="half left cf">
+                        <br>
+                        <input type="pickup" id="input-pickup" placeholder="PickUp">
+                        <br>
+                        <input type="dropoff" id="input-dropoff" placeholder="DropOff">
+
+                    </div>
+                    <div class="half right cf">
+                        <label for="PickUpDay">PickUpDay </label>
+                        <input type="date" id="PickUpDay" name="PickUpDay">
+                        <label for="PickDownDay">PickDownDay</label>
+                        <input type="date" id="PickDownDay" name="PickDownDay">
+                    </div>
+                    <input type="submit" value="Search" id="input-submit">
+                </form>
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+              <footer>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                      <h3>About Ghost Rental</h3>
+                      <ul>
+                        <li><a href="fleet.html">Fleet</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="myaccount.html">MyAccount</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                      <h3>About </h3>
+                      <ul>
+                        <li><a href="#">Privacy policies</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="#">Legal notice</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                      <h3>Ghost Rental</h3>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus, perspiciatis quaerat
+                        in
+                        eius, temporibus porro praesentium ut autem exercitationem natus mollitia pariatur placeat error
+                        numquam
+                        molestias eos vitae architecto.</p>
+                    </div>
+                    
+                  <p class="copyright">Ghost Rental © 2022</p>
+                </div>
+              </footer>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+          </footer>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
