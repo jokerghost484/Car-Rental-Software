@@ -46,6 +46,26 @@
         </div>
     </nav>
 
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"style="font-family: Merriweather, serif" id="exampleModalLabel">Booking Complete</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="font-family: Merriweather, serif">
+            Are you sure about this? You are going to cancel your booking.
+          </div>
+          <div class="modal-footer" style="font-family: Merriweather, serif">
+            
+            <a class ="btn btn-outline-danger" href="home.html">Yes</a>
+            <a class ="btn btn-outline-info" href="bookings.html">No</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container mt-5">
         <div class="row">
             <div class="col">
@@ -60,21 +80,27 @@
                         <li class="list-group-item col-6">Car</li>
                         <li class="list-group-item col-4">Date</li>
                         <li class="list-group-item col-2">Price</li>
+                        
                       </ul>
                       <ul class="list-group list-group-horizontal">
                         <li class="list-group-item col-6">Peugeot</li>
                         <li class="list-group-item col-4">2022-29-04</li>
                         <li class="list-group-item col-2">350$</li>
                       </ul>
+                      <div class="Cancel-button mx-auto pt-2 pb-2">
+                        <a class="btn btn-outline-danger " data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Cancel</a>                   
+                      </div>
                       <ul class="list-group list-group-horizontal">
                         <li class="list-group-item col-6"></li>
                         <li class="list-group-item col-4"></li>
                         <li class="list-group-item col-2"></li>
+                        
                       </ul>
                       <ul class="list-group list-group-horizontal">
                         <li class="list-group-item col-6"></li>
                         <li class="list-group-item col-4"></li>
                         <li class="list-group-item col-2"></li>
+                        
                       </ul>
                 </div>
             </div>
@@ -84,7 +110,7 @@
         </div>
     </div>
 
-
+    
 
 
     <footer>

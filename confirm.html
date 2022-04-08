@@ -45,6 +45,23 @@
 
 
 
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"style="font-family: Merriweather, serif" id="exampleModalLabel">Booking Complete</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="font-family: Merriweather, serif">
+              Booking has done succesfully.You can see your bookings from booking page in MyAccount.
+            </div>
+            <div class="modal-footer" style="font-family: Merriweather, serif">
+              
+              <a class ="btn btn-outline-dark" href="home.html">Home</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="container mt-5">
         <div class="row ">
@@ -98,7 +115,7 @@
                             </li>  
                             
                             
-                            <a class="btn btn-outline-dark mt-5"data-bs-toggle="modal" data-bs-target="#exampleModal" href="purchase.html">Confirm Purchase</a>
+                            
                         </ul>
                     </div>
                 </div>
@@ -106,23 +123,50 @@
         </div>
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title"style="font-family: Merriweather, serif" id="exampleModalLabel">Booking Complete</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          
+        </div>
+        <div class="col-10">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-4 pr-5">
+                <label for="inputName7">Name on Card</label>
+                <input type="email" class="form-control" id="inputName7" placeholder="Name Surname">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputCredit">Credit Card Number</label>
+                <input type="password" class="form-control" id="inputCredit" placeholder="XXXX-XXXX-XXXX-XXXX">
+              </div>
             </div>
-            <div class="modal-body" style="font-family: Merriweather, serif">
-              Booking has done succesfully.You can see your bookings from booking page in MyAccount.
+            
+            <div class="form-row">
+              <div class="form-group col-md-2 pr-4">
+                <label for="inputExpiration">Expiration</label>
+                <input type="text" class="form-control" id="inputExpiration" placeholder="31/12">
+              </div>
+              <div class="form-group col-2">
+                <label for="imputCvv">CVV</label>
+                <input type="text" class="form-control" id="inputCvv" placeholder="XXX">
+              </div>
             </div>
-            <div class="modal-footer" style="font-family: Merriweather, serif">
-              
-              <a class ="btn btn-outline-dark" href="home.html">Home</a>
+            <div class = "button12 pt-4">
+              <a class="btn btn-outline-dark " data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Confirm Purchase</a>
             </div>
-          </div>
+            
+          </form>
+        </div>
+        <div class="col">
+          
         </div>
       </div>
+    </div>
+
 
 
 
