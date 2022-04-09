@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Delete Car</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -18,25 +18,18 @@
 <body>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="home.html"> <i class="fa-solid fa-ghost fa-xl pr-4"
-                    style="color:white"></i>Ghost Rental</a>
+            <a class="navbar-brand " href="admin.html"> <i class="fa-solid fa-ghost fa-xl pr-4"
+                    style="color:white"></i>Ghost Rental Admin Page</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="fleet.html">Fleet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="services.html">Services</a>
-                    </li>
-                </ul>
+
                 <ul class="navbar-nav ms-auto flex-nowrap">
                     <li class="nav-item ">
-                        <a class="navbar-brand" href="myaccount.html">Myaccount
-                            <i class="fa-solid fa-user"></i>
+                        <a class="navbar-brand" href="adminprofile.html">Kaan Akgün
+                            <i class="navbar-brand ml-3 " style="font-size: medium;">Manager</i>
                         </a>
                     </li>
                 </ul>
@@ -44,8 +37,26 @@
         </div>
     </nav>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="font-family: Merriweather, serif" id="exampleModalLabel">Delete Car
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="font-family: Merriweather, serif">
+                    Are you sure about this? You are going to delete this car from our system. You can't undo this
+                    process.
+                </div>
+                <div class="modal-footer" style="font-family: Merriweather, serif">
 
-
+                    <a class="btn btn-outline-danger" href="admin.html">Yes</a>
+                    <a class="btn btn-outline-info" href="cancel.html">No</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container mt-5">
         <div class="row ">
@@ -95,7 +106,8 @@
                                 ipsum.
                             </li>
 
-                            <a class="btn btn-outline-dark mt-5" href="purchase.html">250$</a>
+                            <a class="btn btn-outline-dark mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                href="#">Delete Car</a>
                         </ul>
                     </div>
                 </div>
@@ -152,7 +164,8 @@
                                 ipsum.
                             </li>
 
-                            <a class="btn btn-outline-dark mt-5" href="purchase.html">350$</a>
+                            <a class="btn btn-outline-dark mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                href="#">Delete Car</a>
                         </ul>
                     </div>
                 </div>
@@ -210,7 +223,8 @@
                                 ipsum.
                             </li>
 
-                            <a class="btn btn-outline-dark mt-5" href="purchase.html">228$</a>
+                            <a class="btn btn-outline-dark mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                href="#">Delete Car</a>
                         </ul>
                     </div>
                 </div>
@@ -267,7 +281,8 @@
                                 ipsum.
                             </li>
 
-                            <a class="btn btn-outline-dark mt-5" href="purchase.html">259$</a>
+                            <a class="btn btn-outline-dark mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                href="#">Delete Car</a>
                         </ul>
                     </div>
                 </div>
@@ -325,7 +340,8 @@
                                 ipsum.
                             </li>
 
-                            <a class="btn btn-outline-dark mt-5" href="purchase.html">278$</a>
+                            <a class="btn btn-outline-dark mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                href="#">Delete Car</a>
                         </ul>
                     </div>
                 </div>
@@ -382,7 +398,8 @@
                                 ipsum.
                             </li>
 
-                            <a class="btn btn-outline-dark mt-5" href="purchase.html">200$</a>
+                            <a class="btn btn-outline-dark mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                href="#">Delete Car</a>
                         </ul>
                     </div>
                 </div>
@@ -397,23 +414,7 @@
             <footer>
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 col-md-3 item">
-                            <h3>About Ghost Rental</h3>
-                            <ul>
-                                <li><a href="fleet.html">Fleet</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="myaccount.html">MyAccount</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 col-md-3 item">
-                            <h3>About </h3>
-                            <ul>
-                                <li><a href="#">Privacy policies</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="contactus.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 item text">
+                        <div class="col-md-12 item text">
                             <h3>Ghost Rental</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus,
                                 perspiciatis quaerat
@@ -436,5 +437,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+</body>
 
 </html>
